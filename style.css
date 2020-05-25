@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background: fixed rgb(83, 47, 0) url("bg.jpg");
+}
+header {
+    background-color: rgb(83, 47, 0);
+    color: wheat;
+    font-family: 'Marck Script', cursive;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+.col {
+    display: inline-block;
+}
+.navcol {
+    width: 60vw;
+    margin: 10px 10px;
+}
+.lkcol {
+    position: fixed;
+    right: 160px;
+
+    margin: 0;
+}
+.btn {
+    background-color: wheat;
+    color: black;
+    border-radius: 10px;
+    padding: 13px;
+    display: inline-block;
+    font-size: 30px;
+}
+main {
+    font-size: 24px;
+    font-family: 'Neucha', cursive;
+    margin: 180px 15vw;
+    background-color: rgba(255, 213, 158, 0.801);
+    padding: 14px 30px;
+    border-radius: 20px;
+}
+.stronghold{
+    top: 0;
+    right: 10px;
+    height: 145px;
+    display: inline-block;
+    position: fixed;
+}
+footer, h3 {
+    font-family: 'Neucha', cursive;
+    vertical-align: bottom;
+    background-color: rgb(49, 26, 0);
+    margin: 0;
+}
+h3 {
+    color: cornsilk;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+article > img {
+    width: 100%;
+    border-radius: 10px;
+}
+h2 {
+    border-top: 2px solid rgb(70, 39, 0);
+}
